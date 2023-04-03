@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+:root{
+/* fonts */
+--font-family:"Outfit",sans-serif;
+--font-size: 15px;
+--font-weight-normal: 400px;
+--font-weight-bold: 600px;
+/* color */
+--dark-blue:hsl(218,40%,22%);
+}
+ 
+body{
+background-image: url(bg-header-desktop.png);
+font-size:var(--font-size);
+font-family:var(--font-family);
+font-weight: var(--font-weight-normal);
+color: var(--dark-blue);
+
+}
+p{
+ color:hsl(220, 15%,55%) 
+}
+.header
+{
+width: 100%;    
+height: 100%;
+}
+.imghd
+{
+width: 100%;    
+height: 100%;
+position: static;
+}
+.imghd2
+{
+    margin: 10% 0px auto 45%;
+position: absolute;
+}
+.size1{
+      
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 57px 16px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px ;
+  }
+  
+  .button1 {background-color: #4CAF50;} /* Green */
+  .button2 {background-color: #008CBA;}
+  .computer{
+    display:flex;
+    margin-top: 78px;
+  }
+  .pakage
+  {
+    margin: 100px 0px 0px  70px; 
+  }
+  .pakage2
+  {
+    margin: 0px 0px 0px 0px; 
+    
+  }
+  
+  .islam{
+    padding: 60px 0px 0px 0px ;
+  }
+  .ling{
+    margin: -20px 0 0 0;
+  }
+ .phone{
+  margin: 82px -3px 0px 87px;
+ }
+ .logo{
+  display: flex;
+  margin:61px 25px 0px 74px;
+ }
+ .logoo{
+  display: flex;
+  margin:37px 25px 0px 74px;
+ }
+ .logo2{
+  padding:84px 0px 0px 50px;
+ }
+ .last{ 
+  margin:88px 268px 60px 412px;
+ }
+ .final{
+  background-color:hsl(209, 14%,93%);
+  display: flex;
+  color:hsl(220, 15%,55%);
+  margin: 126px  -20px  -13px  -11px; 
+}
+.final2{
+  padding: 45px 0px 0px 107px;
+}
+.image{
+  width: 50px;
+  height: 50px;
+  padding: 45px 0px 0px 107px;
+}
+.image2{
+  width: 30px;
+  height: 30px;
+  padding: 53px 0px 0px 76px;
+
+}
